@@ -1,0 +1,14 @@
+.page {
+	--fontSize-header: calc(var(--fontSize-title) * (5 / 3));
+	/* --fontSize-title: 3rem; */
+	--fontSize-subTitle: calc(var(--fontSize-title) * (2 / 3));
+	--fontSize-text: calc(var(--fontSize-title) * (2.5 / 3));
+}
+
+.f7-icons {
+	font-size: inherit;
+}
+
+.block-title {
+	font-size: var(--fontSize-title) !important;
+}

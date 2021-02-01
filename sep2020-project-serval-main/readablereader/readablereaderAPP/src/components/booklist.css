@@ -1,0 +1,40 @@
+.item-inner > i {
+    font-size: 2rem !important;
+    font-weight: var(--f7-list-media-item-title-font-weight,var(--f7-list-item-title-font-weight,inherit));;
+}
+
+.first > a > div > .item-inner {
+    display: flex !important;
+}
+
+/*couldnt find a better way to select that little link arrow that f7 makes in links. this works*/
+.first > a > div > div > div {
+    display: none !important;
+}
+
+.item-media > img {
+    width: 12rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.item-title {
+    font-size: var(--fontSize-title) !important;
+    text-overflow: clip !important;
+    white-space: normal !important;
+    /* max-width: 90% !important; */
+} 
+
+.item-subtitle {
+    font-size: var(--fontSize-subTitle) !important;
+}
+
+
+.media-item .item-content {
+    background-color: #0B0B0B;
+}
+
+.media-item:nth-child(odd) .item-content {
+    flex-direction: row-reverse;
+    background-color: #1C1C1C;
+}

@@ -1,0 +1,230 @@
+form {
+    max-width: 80% !important;
+}
+
+.previousbutton {
+    font-size: 3rem !important;
+    margin: auto;
+    text-align: center;
+}
+
+.previousbutton a {
+    height: 4rem !important;
+}
+
+.previousbutton i {
+    font-size: 2.7rem !important;
+}
+
+.item-label {
+    font-size: var(--fontSize-title) !important;
+}
+
+input {
+    font-size: var(--fontSize-title) !important;
+    height: 8rem !important;
+}
+
+input[type="file"] {
+    font-size: 2rem !important;
+    height: min-content !important;
+}
+
+#login-submit_button > a, #create-submit_button > a {
+    height: 6rem;
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+div.list {
+    max-width: 100% !important;
+}
+
+.loginfooter {
+    font-size: 3.5rem !important;
+    padding: 1.5rem 0 !important;
+    text-align: center !important;
+}
+
+.block-footer {
+    margin: 2rem auto !important;
+    font-size: var(--fontSize-text) !important;
+    max-width: 100% !important;
+}
+
+.page-content {
+	padding-top: 0 !important;
+}
+.navbar-inner{
+	font-size: var(--f7-navbar-large-title-font-size);
+}
+.item-input-info, span, .item-after{
+	font-size: 2rem !important;
+}
+.topbar-right {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: max-content;
+    height: max-content;
+    margin-left: auto;
+    border-radius: 0 0 0 100%;
+    background-color: red;
+    font-size: 3rem;
+    text-align: center;
+    z-index: 10;
+}
+.topbar-right > i {
+    font-size: 4rem;
+    margin:0rem 0 0 1rem;
+}
+.topbar-bottom-left {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: max-content;
+    height: max-content;
+    margin-left: auto;
+    border-radius: 0 100% 0 0;
+    background-color: orange;
+    font-size: 3rem;
+    text-align: center;
+    z-index: 10;
+}
+.topbar-bottom-left > i {
+    font-size: 4rem;
+    margin: 1rem;
+}
+.topbar-tts-left-bottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: max-content;
+    height: max-content;
+    margin-left: auto;
+    border-radius: 0 100% 0 0;
+    background-color: #ff2d55;
+    font-size: 3rem;
+    text-align: center;
+    z-index: 10;
+}
+.topbar-tts-left-bottom > i {
+    font-size: 4rem;
+    margin: 1rem 1.5rem 1rem 1rem;
+}
+
+.buttons_tts {
+	position: fixed;
+	z-index: 9;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+	justify-content: center;
+	align-items: center;
+}
+
+.buttons_tts > div {
+    width: max-content;
+    height: max-content;
+    border-radius: 100%;
+    font-size: 3rem;
+    text-align: center;
+	z-index: 10;
+	margin: 1vh 1vw;
+}
+
+.buttons_tts > div > i {
+	font-size: 4rem;
+    margin:1rem;
+}
+.topbar-tts {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: max-content;
+    height: max-content;
+    margin-left: auto;
+    border-radius: 0 0 100% 0;
+    background-color: #ff2d55;
+    font-size: 3rem;
+    text-align: center;
+    z-index: 10;
+}
+.topbar-tts > i {
+    font-size: 4rem;
+    margin:0rem 1.5rem 1.5rem 0rem;
+}
+.topbar-tts-right {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: max-content;
+    height: max-content;
+    margin-left: auto;
+    border-radius: 0 0 0 100%;
+    background-color: #ff2d55;
+    font-size: 3rem;
+    text-align: center;
+    z-index: 10;
+}
+.topbar-tts-right > i {
+    font-size: 4rem;
+    margin:0rem 1.5rem 1.5rem 0rem;
+}
+div.dialog-title, div.dialog-text{
+    font-size: 2rem;
+}
+
+.list .icon-radio::after, .item-title-row::before {
+	font-size: 6rem !important;
+	transform: translateX(-3rem);
+}
+
+.smart-select-page > .page-content > .list {
+    margin: 5rem 0 !important;
+}
+
+.list-button {
+	font-size: var(--fontSize-title) !important;
+}
+
+.addbookbutton {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: max-content;
+    height: max-content;
+    margin-left: auto;
+    border-radius: 0 0 0 100%;
+    background-color: rgb(57, 184, 70);
+    font-size: 4rem;
+    text-align: center;
+    z-index: 10;
+}
+
+.addbookbutton i {
+    font-size: 5rem;
+    margin: 0 0 1.5rem 2rem;
+    color: white;
+}
+
+.warning {
+    background-color: #FF0000 !important;
+    font-size: var(--fontSize-text) !important;
+    font-weight: bold !important;
+    padding: 0.5rem !important;
+    color: white !important;
+    border-radius: 2rem !important;
+    margin-bottom: 2rem !important;
+}
+
+@media screen and (orientation:landscape) {
+    .homepage-image {
+        width: 60%;
+        margin: 2rem auto;
+    }
+
+    .homepage-image > img {
+        margin: 0 20%;
+    }
+}
